@@ -1,0 +1,8 @@
+Example app using the Google Cloud Machine Learning functionality.
+This app utilizes:
+the Blobstore API to upload, manage, serve and delete blobs.
+the Task Queue API for tasks on blobs.
+the Channel API for messaging about blobs.
+the Datastore API for notes about blobs.
+
+The app uses a wrapper around the standard blob to be able to associate a user and upload date with each blob. More fields could easily be added.
